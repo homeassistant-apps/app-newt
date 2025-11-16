@@ -9,7 +9,6 @@ init: false
 arch:
   - aarch64
   - amd64
-  - armv7
 schema:
   pangolin_endpoint: "str"
   newt_id: "str"
