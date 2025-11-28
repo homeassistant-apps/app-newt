@@ -57,4 +57,4 @@ you are troubleshooting.
 
 [my-ha-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
 [my-ha-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Felcajon-dev%2Frepository-stable
-[ha-addons]: https://github.com/elcajon-dev/repository-stable
+[ha-addons]: https://github.com/homeassistant-apps/repository
