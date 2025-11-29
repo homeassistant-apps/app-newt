@@ -33,7 +33,7 @@ jobs:
         uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6.0.0
       - name: 🚀 Run add-on information action
         id: information
-        uses: elcajon/action-addon-information@v2
+        uses: homeassistant-apps/action-app-information@v2
       - name: 🚀 Process possible slug override
         id: override
         run: |
@@ -52,7 +52,7 @@ jobs:
       - name: ⤵️ Check out code from GitHub
         uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6.0.0
       - name: 🚀 Run Add-on Lint
-        uses: elcajon/action-addon-linter@v3.1
+        uses: homeassistant-apps/action-app-linter@v3.1
         with:
           community: true
           path: "./${{ needs.information.outputs.target }}"
